@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+/* CONFIGURAÇÕES GLOBAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CORPO */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0C0C0C;
+}
+
+/* CONTEÚDO */
+.conteudo {
+    color: white;
+    width: 700px;
+    padding: 2rem;
+}
+
+/* SEÇÃO INFORMAÇÕES DE CONTATO */
+.secaoInfoContato {}
+
+.secaoInfoContato h2 {
+    font-size: 1.75em;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 400;
+}
+
+/* ÁREA DE CONTATOS */
+.secaoInfoContato__areaContato {
+    margin-bottom: 3rem;
+    display: flex;
+    gap: 4rem;
+    padding: 1rem;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 33.3%;
+}
+
+.contato span {
+    background-color: #BC9864;
+    border-radius: 50%;
+    padding: 1.3rem 1.5rem;
+    margin-bottom: 1.4rem;
+}
+
+.contato span i {
+    color: black;
+}
+
+.contato h3 {
+    color: #BC9864;
+    font-size: 1em;
+    font-weight: 100;
+    margin-bottom: 0.5rem;
+}
+
+.contato p {
+    color: #666666;   
+    width: 167px;
+    line-height: 1.7rem;
+}
+
+.contato a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+/* SEÇÃO FORMULÁRIO */
+.secaoFormulario {}
+
+.secaoFormulario h2 {
+    font-size: 1.75em;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+/* FORM */
+.secaoFormulario__form {}
+
+.form__inputBox {}
+
+.form__inputBox input {
+    margin-bottom: 1.3rem;
+    width: 100%;
+    background-color: #141414;
+    border: none;
+    padding: 1.2rem;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+textarea {
+    background-color: #141414;
+    width: 100%;
+    border: none;
+    padding: 1.2rem;
+    font-size: 1.3em;
+    resize: none;
+    margin-bottom: 1rem;
+}
+
+.secaoFormulario__form > input {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #BC9864;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
