@@ -91,7 +91,9 @@ body {
 /* FORM */
 .secaoFormulario__form {}
 
-.form__inputBox {}
+.form__inputBox {
+    margin-bottom: 1rem;
+}
 
 .form__inputBox input {
     margin-bottom: 1.3rem;
@@ -101,6 +103,12 @@ body {
     padding: 1.2rem;
     border-radius: 5px;
     font-size: 1em;
+    color: #fff;
+}
+
+.mensagem__erro {
+    color: red;
+    margin-left: 0.3rem;
 }
 
 textarea {
@@ -111,6 +119,8 @@ textarea {
     font-size: 1.3em;
     resize: none;
     margin-bottom: 1rem;
+    color: #fff;
+    border-radius: 5px;
 }
 
 .secaoFormulario__form > input {
@@ -121,6 +131,9 @@ textarea {
     font-size: 1em;
     text-transform: uppercase;
     font-weight: 600;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 1970px) {
